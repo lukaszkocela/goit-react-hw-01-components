@@ -1,0 +1,39 @@
+.transactionHistory {
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 10px -2px rgb(68, 73, 128);
+  margin-bottom: 50px;
+}
+
+.headTable {
+  background-color: rgb(60, 48, 192);
+}
+
+.headText {
+  padding: 10px 80px;
+  color: #fff;
+}
+
+.value {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.valueDark {
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgb(130, 106, 106);
+}
+
+.headText,
+.value,
+.valueDark {
+  border-right: 1px solid rgb(201, 195, 195);
+}
+
+.headText:last-child,
+.value:last-child,
+.valueDark:last-child {
+  border-collapse: collapse;
+}
